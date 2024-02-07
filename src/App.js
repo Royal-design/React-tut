@@ -1,9 +1,8 @@
-import { useState, useReducer } from "react";
+import { useReducer } from "react";
 import "./App.css";
 import "./app.style.scss";
 import { ACTION } from "./Action";
-// import { Home } from "./Home";
-// import useAxiosFetcher from "./hooks/useAxiosFetcher";
+
 const reducer = (state, action) => {
   switch (action.type) {
     case "increment":
