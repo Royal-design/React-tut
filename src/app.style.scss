@@ -1,0 +1,17 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  justify-content: center;
+  button {
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+  }
+}
+.modal {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
