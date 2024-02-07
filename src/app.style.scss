@@ -1,0 +1,20 @@
+.component {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  input[type="text"] {
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 15rem;
+  }
+  button {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    border: none;
+    background-color: grey;
+  }
+}
