@@ -15,7 +15,7 @@ const useAxiosFetcher = (dataUrl) => {
           cancelToken: source.token
         });
         if (isMounted) {
-          setData(response.data.meals);
+          setData(response.data);
           setFetchError(null);
         }
       } catch (error) {
