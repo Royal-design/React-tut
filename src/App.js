@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import { Post } from "./components/Post";
 import Joke from "./components/Joke";
-// import Joke from "./components/Joke";
 // import { Home } from "./Home";
 // import useAxiosFetcher from "./hooks/useAxiosFetcher";
 
